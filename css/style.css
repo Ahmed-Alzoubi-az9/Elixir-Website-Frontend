@@ -4,9 +4,9 @@
 /* VARIABLES */
 :root {
     --c-dark: #212529;
-    --c-brand: #4e57d4;
-    --c-brand-light: #6970dd;
-    --c-brand-rgb: 78, 87, 212;
+    --c-brand: #8b5cf6;
+    --c-brand-light: #a78bfa;
+    --c-brand-rgb: 139, 92, 246;
     --c-body: #727272;
     --font-base: "ClashDisplay", sans-serif;
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
@@ -78,10 +78,29 @@ img {
 .navbar-nav .nav-link {
     font-weight: 500;
     color: var(--c-dark);
+    position: relative;
+    transition: var(--transition);
 }
 
+.navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
     color: var(--c-brand);
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 0;
+    height: 2px;
+    background-color: var(--c-brand);
+    transition: var(--transition);
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+    width: 100%;
 }
 
 
