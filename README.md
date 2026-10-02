@@ -59,4 +59,4 @@ README.md
 
 ## Notes
 
-This project was developed as a practical front-end landing page and demonstrates responsive layout, Bootstrap components, CSS variables for theming, scroll animations, and basic website structure.
+> **Note:** This is a university training project based on the original Elixir Bootstrap template by its respective authors. It was recreated for learning purposes and customized during training to practice responsive layouts, Bootstrap components, CSS variables for theming, scroll animations, and basic frontend structure.
