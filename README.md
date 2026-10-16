@@ -46,17 +46,6 @@ screenshots/
 README.md
 ```
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/elixir-website.git
-   ```
-
-2. Run the project using a local Apache environment such as XAMPP.
-3. Open `views/home.html` via `http://localhost/elixir-website/views/home.html`.
-
 ## Notes
 
 > **Note:** This is a university training project based on the original Elixir Bootstrap template by its respective authors. It was recreated for learning purposes and customized during training to practice responsive layouts, Bootstrap components, CSS variables for theming, scroll animations, and basic frontend structure.
